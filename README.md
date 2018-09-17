@@ -16,11 +16,11 @@ Ms. Yutong Fang
 - 2:05PM - 3:40PM, Tuesday / 3:55PM - 5:30PM, Thursday
 
 ## Schedule
-|   Topic          |     Date     |                  Slides            |   Course note      |          
-| ---------------- |:------------:|:----------------------------------:|:------------------:|
-|  Introduction    |  2018.09.18  |  Introduction                      |   Chapter 1        |
-|                  |              |  What is digital asset management  |   Skills           |
-|                  |              |  Additional reading                |                    |
+|   Topic          |     Date     |                  Slides                                   |   Course note      |          
+| ---------------- |:------------:|:---------------------------------------------------------:|:------------------:|
+|  Introduction    |  2018.09.18  |  [Introduction](pdf/dam-2017-00.pdf)                      |   Chapter 1        |
+|                  |              |  [What is digital asset management](pdf/dam-2017-01.pdf)  |   Skills           |
+|                  |              |  Additional reading                                       |                    |
 
 
 ## Homework
