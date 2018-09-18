@@ -20,8 +20,8 @@ Ms. Yutong Fang
 ## Schedule
 |   Topic          |     Date     |                  Slides                                   |   Course note      |          
 | ---------------- |:------------:|:---------------------------------------------------------:|:------------------:|
-|  Introduction    |  2018.09.18  |  [Introduction](pdf/dam2017-00.pdf)                      |   Chapter 1        |
-|                  |              |  [What is digital asset management](pdf/dam2017-01.pdf)  |   Skills           |
+|  Introduction    |  2018.09.18  |  [Introduction](pdf/dam2018-00.pdf)                      |   Chapter 1        |
+|                  |              |  [What is digital asset management](pdf/dam2018-01.pdf)  |   Skills           |
 |                  |              |  Additional reading                                       |                    |
 
 
