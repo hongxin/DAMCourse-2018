@@ -46,6 +46,11 @@ Ms. Yutong Fang
 - Web js framework: yeoman
 - Image processing: gm
 
+### Blockchain
+- Etherium: [official site](https://www.ethereum.org/)
+- Online (light) wallet: [metamask](https://metamask.io/)
+
+
 ## Final Examination
 + 时间：2018年11月 (2小时)
 + 地点：玉泉校区
