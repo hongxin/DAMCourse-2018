@@ -20,10 +20,11 @@ Ms. Yutong Fang
 ## Schedule
 |   Topic          |     Date     |                  Slides                                   |   Course note      |          
 | ---------------- |:------------:|:---------------------------------------------------------:|:------------------:|
-|  Introduction    |  2018.09.18  |  [Introduction](pdf/dam2018-00.pdf)                      |   Chapter 1        |
-|                  |              |  [What is digital asset management](pdf/dam2018-01.pdf)  |   Skills           |
+|  Introduction    |  2018.09.18  |  [Introduction](pdf/dam2018-00.pdf)                       |   Chapter 1        |
+|                  |              |  [What is digital asset management](pdf/dam2018-01.pdf)   |   Skills           |
 |                  |              |  Additional reading                                       |                    |
-
+|Media Format (I)  |  2018.09.20  |  [Image](pdf/dam2018-02.pdf)                              |   Chapter 2        |
+|Media Format (II) |  2018.09.25  |  [Audio](pdf/dam2018-03.pdf)                              |   Chapter 2        |
 
 ## Homework
 - **Course note (课堂笔记)** : dam2017-hw05.pdf (deadline, 2018-11-xx)
