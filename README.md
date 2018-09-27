@@ -25,14 +25,15 @@ Ms. Yutong Fang
 |                  |              |  Additional reading                                       |                    |
 |Media Format (I)  |  2018.09.20  |  [Image](pdf/dam2018-02.pdf)                              |   Chapter 2        |
 |Media Format (II) |  2018.09.25  |  [Audio](pdf/dam2018-03.pdf)                              |   Chapter 2        |
+|Media Format (III)|  2018.09.27  |  [Video](pdf/dam2018-04.pdf)                              |   Chapter 2        |
 
 ## Homework
-- **Course note (课堂笔记)** : dam2017-hw05.pdf (deadline, 2018-11-xx)
-- **Content collection**: dam2017-hw01.pdf (deadline, 2018-10-xx)
-- **Assets cataloging**: dam2017-hw02.pdf (deadline, 2018-10-xx) (an excellent example)
-- **Acquire data from internet**: dam2017-hw02a.pdf (deadline, 2018-10-xx)
-- **Image watermarking**: dam2017-hw03.pdf (deadline, 2018-11-xx)
-- **Image similarity computing**: dam2017-hw04.pdf (deadline, 2017-11-xx) Additional reference More and pHash 10 Image samples
+- **Content collection**: [homework-01](pdf/dam2018-hw01.pdf) (deadline, 2018-10-10)
+- **Assets cataloging**: [homework-02](pdf/dam2018-hw02.pdf) (deadline, 2018-10-xx) (an excellent example)
+- **Acquire data from internet**: [homework-02a](pdf/dam2018-hw02a.pdf) (deadline, 2018-10-xx)
+- **Image watermarking**: [homework-03](pdf/dam2018-hw03.pdf) (deadline, 2018-11-xx)
+- **Image similarity computing**: [homework-04](pdf/dam2018-hw04.pdf) (deadline, 2018-11-xx) Additional reference More and pHash 10 Image samples
+- **Course note (课堂笔记)** : [homework-05](pdf/dam2018-hw05.pdf) (deadline, 2018-11-xx)
 
 ## Course Project
 - The course project (deadline, 2018-xx-xx)
