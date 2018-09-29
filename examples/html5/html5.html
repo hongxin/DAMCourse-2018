@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<!-- 
+  Copyright 2010 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Ernest Delgado (ernestd@google.com)
+                 Alex Russell (slightlyoff@chromium.org)
+  template maker: Yan kai(kaiyannju@gmail.com)
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <title>数字媒体资源管理：HTML5演示</title>
+    
+<link type="text/css" href="main.css" rel="stylesheet">
+
+  </head><body>
+    <div class="presentation">
+      <div class="slides">
+        <div class="slide">
+          <section class="center intro">
+            <p>数字媒体资源管理：HTML5演示</p>
+            <p>按<span class="key">&rarr;</span>键 进入下一页</p>
+            <p style="font-size: 25px">
+              请使用<a href="http://www.google.com/chrome/">Google Chrome</a>浏览。
+              在演示中遇到问题？阅读 <a href="disclaimer.html">免责声明</a>
+              <a href="http://code.google.com/p/html5-slide-template/downloads/list">改编自html5-slide-template</a>
+            </p>
+   
+   </section>
+        </div>
+                
+        <div class="slide">
+          <section class="center intro">
+            <hgroup>
+              <h1>
+                HTML5*
+              </h1>
+              <h2>
+                新特性演示
+              </h2>
+            </hgroup>
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header>列表</header>
+          
+          <section>
+            <ul class="summary">
+              <li>无格式
+              </li><li><span class="key">文字加框</span>
+              </li><li>
+			           使用本地没有的字体     <span style="font-family: LeagueGothic">Font</span> 
+
+			  
+              </li><li><span class="stroke">文字加边线</span>
+              </li></ul>
+          </section>
+        </div>
+      
+
+        <div class="slide"> 
+          <header><h1>图片</h1></header> 
+
+          <section> 
+              <img style='width: 60%; margin: 30px auto; display: block' src='images/cat.jpg' />
+          </section> 
+        </div>
+                
+
+
+        <div class="slide">
+          <header><h1>在线音乐</h1></header>
+          <section style="text-align: center">
+ 
+    
+            
+              <audio    src="media/flowerfire.ogg" controls>
+                Your browser dows not support the audio tag
+              </audio>
+          </section>
+        </div>
+          
+        <div class="slide">
+              <header><h1>在线视频</h1></header>
+              <section style="text-align: center">
+                  
+                  <video  src="media/tears_of_steel_720p.mov" controls="controls" width="640" height="480" >
+                      Your browser does not support the video tag
+                  </video>
+                  
+              </section>
+        </div>
+        
+     
+
+        <div class="slide">
+          <header><span class="css">CSS</span> <h1>透明效果</h1></header>
+
+          <section>
+
+            <style>
+              #opacity-body {
+                font-family: Junction;
+                font-size: 84%;
+                max-width: 800px;
+                background: url(images/opacity_bg.jpg) top center no-repeat;
+                margin: 0 auto;
+                padding: 20px;
+                border-radius: 8px;
+              }
+              #opacity-example {
+                margin: 100px auto;
+                font-size: 80px;
+                line-height: 200px;
+                text-align: center;
+                font-weight: bold;
+                letter-spacing: -4px; 
+                border-radius: 5px;
+              }
+            </style>
+
+<pre>  color: <b>rgba</b>(255, 0, 0, <span id="opacity-color-value">0.75</span>); <input id="opacity-color" type="range" min="0" max="100" value="75" onchange="changeOpacity()"> 
+  background: <b>rgba</b>(0, 0, 255, <span id="opacity-background-value">0.75</span>); <input id="opacity-background" type="range" min="0" max="100" value="75" onchange="changeOpacity()"> 
+</pre>            
+
+            <div id="opacity-body">
+              <div id="opacity-example" style="text-shadow: none; color: rgba(255, 0, 0, 0.746094); background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 255, 0.746094); background-position: initial initial; background-repeat: initial initial; ">
+                Independent opacity
+              </div>    
+            </div>          
+
+            <script>
+              function changeOpacity() {
+                var textOpacity = (document.getElementById('opacity-color').value / 100).toFixed(2);
+                var backgroundOpacity = (document.getElementById('opacity-background').value / 100).toFixed(2);
+
+                var el = document.getElementById('opacity-example');
+
+                el.style.color = 'rgba(255, 0, 0, ' + textOpacity + ')';
+                el.style.background = 'rgba(0, 0, 255, ' + backgroundOpacity + ')';        
+
+                document.getElementById('opacity-color-value').innerHTML = textOpacity;
+                document.getElementById('opacity-background-value').innerHTML = backgroundOpacity;                
+              }
+
+              changeOpacity();
+            </script>
+          </section>
+
+        </div>
+
+ 
+
+        <div class="slide">
+          <header><h1>圆角效果</h1></header>
+          <section>
+
+<pre>  <b>border-radius</b>: <span id="rounded-border-value">0</span>px; <input id="rounded-border" type="range" min="0" max="50" value="0" onchange="changeRounded(event)"> 
+</pre>          
+
+          <example id="rounded-example" style="border: 1px solid #bbb; border-radius: 0;">
+            <div style="font-size: 75px; font-family: Junction; padding: 20px 0; text-align: center">
+              Example
+            </div>
+          </example>
+
+          <script>
+            function changeRounded() {
+              var el = document.getElementById('rounded-example');
+
+              var borderVal = document.getElementById('rounded-border').value;
+              document.getElementById('rounded-border-value').innerHTML = borderVal;
+
+              el.style.borderRadius = borderVal + 'px';
+            }
+          </script>
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>渐变效果</h1></header>
+
+          <section>
+            <pre>background: -webkit-<b>gradient</b>(<b>linear</b>, left top, left bottom, 
+                             from(#<span style="text-shadow: #00abeb 0 0 1px; color: #00abeb">00abeb</span>), to(white), 
+                             color-stop(0.5, white), color-stop(0.5, <span style="text-shadow: #00abeb 0 0 1px; color: #66cc00">#66cc00</span>))            
+</pre>
+            <example style="border: 0; height: 100px; background: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(#fff), color-stop(0.5, #fff), color-stop(0.5, #66cc00));"></example>
+<br />
+<pre>background: -webkit-gradient(<b>radial</b>, 430 50, 0, 430 50, <span id="gradients-radial-value">200</span>, from(red), to(#000))  
+                                                        <input id="gradients-radial" type="range" min="1" max="800" value="200" onchange="changeGradients(event)"> 
+</pre>
+            <example id="gradients-radial-example" style="border: 0; height: 100px; background: -webkit-gradient(radial, 430 50, 0, 430 50, 200, from(red), to(#000));"></example>
+
+            <script>
+              function changeGradients() {
+                var size = document.getElementById('gradients-radial').value; 
+
+                document.getElementById('gradients-radial-example').style.background = 
+                    '-webkit-gradient(radial, 430 50, 0, 430 50, ' + size + ', from(red), to(#000))';
+
+                document.getElementById('gradients-radial-value').innerHTML = size;
+              }
+            </script>            
+          </section>
+        </div>
+
+        <div class="slide">
+          <header><h1>阴影效果</h1></header>
+
+          <section>
+<pre class="two-column"><b>text-shadow</b>: 
+  rgba(64, 64, 64, 0.5) 
+  <span id="shadows-text-x-value">0</span>px <input id="shadows-text-x" type="range" min="-9" max="9" value="0" onchange="changeShadow(event)"> 
+  <span id="shadows-text-y-value">0</span>px <input id="shadows-text-y" type="range" min="-9" max="9" value="0" onchange="changeShadow(event)"> 
+  <span id="shadows-text-size-value">0</span>px; <input id="shadows-text-size" type="range" min="0" max="9" value="0" onchange="changeShadow(event)">     
+<b>box-shadow</b>: 
+  rgba(0, 0, 128, 0.25) 
+  <span id="shadows-box-x-value">0</span>px <input id="shadows-box-x" type="range" min="-9" max="9" value="0" onchange="changeShadow(event)"> 
+  <span id="shadows-box-y-value">0</span>px <input id="shadows-box-y" type="range" min="-9" max="9" value="0" onchange="changeShadow(event)"> 
+  <span id="shadows-box-size-value">0</span>px; <input id="shadows-box-size" type="range" min="0" max="9" value="0" onchange="changeShadow(event)">
+            </pre>
+
+            <example id="shadow-example" style="font-size: 75px; font-family: Junction; margin: 10px 10px 30px 10px; padding: 20px; text-align: center">
+              Shadows example
+            </example>
+
+          </section>
+
+          <script>
+            function changeShadow() {
+              var el = document.getElementById('shadow-example');
+
+              var textXVal = document.getElementById('shadows-text-x').value;
+              var textYVal = document.getElementById('shadows-text-y').value;
+              var textSizeVal = document.getElementById('shadows-text-size').value;
+
+              document.getElementById('shadows-text-x-value').innerHTML = textXVal;
+              document.getElementById('shadows-text-y-value').innerHTML = textYVal;
+              document.getElementById('shadows-text-size-value').innerHTML = textSizeVal;
+
+              var boxXVal = document.getElementById('shadows-box-x').value;
+              var boxYVal = document.getElementById('shadows-box-y').value;
+              var boxSizeVal = document.getElementById('shadows-box-size').value;
+
+              document.getElementById('shadows-box-x-value').innerHTML = boxXVal;
+              document.getElementById('shadows-box-y-value').innerHTML = boxYVal;
+              document.getElementById('shadows-box-size-value').innerHTML = boxSizeVal;
+
+              el.style.textShadow = 'rgba(64, 64, 64, 0.5) ' + textXVal + 'px ' + textYVal + 'px ' + textSizeVal + 'px';
+              el.style.boxShadow = 'rgba(0, 0, 128, 0.25) ' + boxXVal + 'px ' + boxYVal + 'px ' + boxSizeVal + 'px';
+            }
+          </script>
+        </div>
+
+
+        <div class="slide">
+          <header><h1>拖拽出Logo</h1></header>
+
+          <section>
+
+            <pre><b>text-shadow</b>: rgba(0, 0, 0, 0.5) 0 <span id="web20-shadow-value-1">0</span>px <span id="web20-shadow-value-2">0</span>px; <input id="web20-shadow" type="range" min="0" max="9" value="0" onchange="changeWeb20(event)"> 
+
+background: 
+  -<b>webkit-gradient</b>(linear, left top, left bottom, <input id="web20-gradient" type="range" min="0" max="100" value="0" onchange="changeWeb20(event)"> 
+                   from(rgba(200, 200, 240, <span id="web20-gradient-value-1">0</span>)), to(rgba(255, 255, 255, <span id="web20-gradient-value-2">0</span>))); 
+
+<b>border-radius</b>: <span id="web20-border-value">0</span>px; <input id="web20-border" type="range" min="0" max="50" value="0" onchange="changeWeb20(event)"> 
+
+-webkit-<b>box-reflect</b>: below 10px
+  -webkit-gradient(linear, left top, left bottom, <input id="web20-reflect" type="range" min="0" max="100" value="0" onchange="changeWeb20(event)"> 
+                   from(transparent), to(rgba(255, 255, 255, <span id="web20-reflect-value">0</span>)));          
+</pre>
+
+            <example>
+              <div style="font-size: 65px; color: #226; font-family: Junction; padding: 20px 0; margin-bottom: 100px; text-align: center">
+                <div id="web20-google">
+                  Web 2.0 Logo Creatr
+                </div>
+              </div>
+            </example>
+
+          </section>
+
+          <script>
+            function changeWeb20() {
+              var el = document.getElementById('web20-google');
+
+              var textShadowVal = document.getElementById('web20-shadow').value;
+              document.getElementById('web20-shadow-value-1').innerHTML = textShadowVal;
+              document.getElementById('web20-shadow-value-2').innerHTML = textShadowVal;
+
+              var gradientVal = document.getElementById('web20-gradient').value / 100;
+              document.getElementById('web20-gradient-value-1').innerHTML = gradientVal;
+              document.getElementById('web20-gradient-value-2').innerHTML = gradientVal;
+
+              var borderVal = document.getElementById('web20-border').value;
+              document.getElementById('web20-border-value').innerHTML = borderVal;
+
+              var reflectVal = document.getElementById('web20-reflect').value / 100;
+              document.getElementById('web20-reflect-value').innerHTML = reflectVal;
+
+              el.style.textShadow = 'rgba(0, 0, 0, 0.5) 0 ' + textShadowVal + 'px ' + textShadowVal + 'px';
+              el.style.background = '-webkit-gradient(linear, left top, left bottom, from(rgba(200, 200, 240, ' + gradientVal + ')), to(rgba(255, 255, 255, ' + gradientVal + ')))';
+              el.style.borderRadius = borderVal + 'px';
+              el.style.webkitBoxReflect = 'below 10px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, ' + reflectVal + ')))';
+            }
+          </script>
+        </div>
+
+
+
+
+        <div class="slide">
+          <header><h1>JS类库使用</h1></header>
+	      <script src="js/mootools.js">  </script>
+
+ <script>
+    window.addEvent('domready', function() {
+	
+	//create our Accordion instance
+	var myAccordion = new Accordion($('accordion'), '.toggler', 'div.element', {
+		opacity: false,
+		onActive: function(toggler, element){
+			toggler.setStyle('color', '#528CE0');
+		},
+		onBackground: function(toggler, element){
+			toggler.setStyle('color', '#41464D');
+		}
+	});
+	
+	//--horizontal
+	var myHorizontalSlide = new Fx.Slide('horizontal_slide', {mode: 'horizontal'});
+
+	$('h_slidein').addEvent('click', function(e){
+		e.stop();
+		myHorizontalSlide.slideIn();
+	});
+
+	$('h_slideout').addEvent('click', function(e){
+		e.stop();
+		myHorizontalSlide.slideOut();
+	});
+
+	$('h_toggle').addEvent('click', function(e){
+		e.stop();
+		myHorizontalSlide.toggle();
+	});
+
+	$('h_hide').addEvent('click', function(e){
+		e.stop();
+		myHorizontalSlide.hide();
+		$('horizontal_status').set('html', status[myHorizontalSlide.open]);
+	});
+	
+	$('h_show').addEvent('click', function(e){
+		e.stop();
+		myHorizontalSlide.show();
+		$('horizontal_status').set('html', status[myHorizontalSlide.open]);
+	});
+	
+	// When Horizontal Slide ends its transition, we check for its status
+	// note that complete will not affect 'hide' and 'show' methods
+	myHorizontalSlide.addEvent('complete', function() {
+		$('horizontal_status').set('html', status[myHorizontalSlide.open]);
+	});
+	});
+    </script>
+	      <style>
+        
+              #marginbottom {
+                font-size: 20px;
+              }
+			   #horizontal_slide {
+			  margin-top:20px;
+                font-size: 20px;
+              }
+            </style>
+          <section>
+<p>你可以使用Javascript类库可以达到更多炫酷效果</p>
+<div>
+<h2>折叠效果</h2>
+<div id="accordion">
+  
+		<p class="toggler">食物</p>
+		<div class="element">
+			<p>The first suggestion that all organisms may ha 		Lorem ipsum dolor sit amet,
+</p>
+		</div>
+			<p class="toggler">水果</p>
+		<div class="element">
+			<p>The first suggestion that all organisms may ha		Lorem ipsum dolor sit amet,
+</p>
+		</div>
+</div></div>
+<div>
+<h2>展开效果</h2>
+
+<div id="marginbottom">
+		<a id="h_slideout" href="#">slide out</a>
+		|
+		<a id="h_slidein" href="#">slide in</a>
+		|
+		<a id="h_toggle" href="#">toggle</a>
+		|
+		<a id="h_hide" href="#">hide</a>
+		|
+		<a id="h_show" href="#">show</a>
+		
+	</div>
+	<example id="horizontal_slide">
+		Lorem ipsum dolor sit amet,
+	</example>
+</div>
+          </section>
+        </div>
+
+ <div class="slide"> 
+          <header><h1>如何使用</h1></header> 
+          
+          <section> 
+            <ul class="bullets"> 
+              <li>现代浏览器
+              </li><li>手机浏览器
+              </li><li>Chrome extensions/Firefox Jetpack
+              </li></ul> 
+          </section> 
+        </div> 
+
+<!-- slides -->
+       
+    </div> <!-- presentation -->
+    
+    <script src="js/slider.js">
+    
+    </script>
+<!-- trace -->
+    
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10148377-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
