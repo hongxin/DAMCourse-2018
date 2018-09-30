@@ -44,6 +44,8 @@ Ms. Yutong Fang
 ## Reference Links
 
 ### Python
+- Flask official site: https://www.fullstackpython.com/flask.html
+- Flask and full stack python: https://www.fullstackpython.com/flask.html
 
 
 ### JavaScript
