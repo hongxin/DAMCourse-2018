@@ -28,6 +28,7 @@ Ms. Yutong Fang
 |Media Format (III)|  2018.09.27  |  [Video](pdf/dam2018-04.pdf)                              |   Chapter 2        |
 |Media Format (IV) |  2018.09.29  |  [HTML, XML and 3D](pdf/dam2018-05.pdf)                   |   Chapter 2        |
 |                  |              |  [An HTML5 example](examples/html5)                       |                    |
+|Multimedia DB (I) |  2018.10.09  |  [Chanllenges](pdf/dam2018-06.pdf)                        |   Chapter 3        |
 
 ## Homework
 - **Content collection**: [homework-01](pdf/dam2018-hw01.pdf) (deadline, 2018-10-10)
@@ -38,7 +39,7 @@ Ms. Yutong Fang
 - **Course note (课堂笔记)** : [homework-05](pdf/dam2018-hw05.pdf) (deadline, 2018-11-xx)
 
 ## Course Project
-- The course project (deadline, 2018-xx-xx)
+- The course project [PDF](pdf/dam2018-porject.pdf) (deadline, 2018-xx-xx)
 - Team list
 
 ## Reference Links
