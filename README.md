@@ -39,7 +39,7 @@ Ms. Yutong Fang
 - **Course note (课堂笔记)** : [homework-05](pdf/dam2018-hw05.pdf) (deadline, 2018-11-xx)
 
 ## Course Project
-- The course project [PDF](pdf/dam2018-porject.pdf) (deadline, 2018-xx-xx)
+- The course project [PDF](pdf/dam2018-project.pdf) (deadline, 2018-xx-xx)
 - Team list
 
 ## Reference Links
