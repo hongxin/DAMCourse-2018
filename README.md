@@ -56,7 +56,7 @@ Ms. Yutong Fang
 - Image processing: gm
 
 ### Blockchain
-- Etherium: [official site](https://www.ethereum.org/)
+- Ethereum: [official site](https://www.ethereum.org/)
 - Online (light) wallet: [metamask](https://metamask.io/)
 
 
