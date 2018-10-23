@@ -33,7 +33,7 @@ Ms. Yutong Fang
 |Multimedia DB (III)|  2018.10.16  |  [MPEG-7 and storage](pdf/dam2018-08.pdf)                |   Chapter 3        |
 |                  |              |  [An HTML5 example](examples/html5)                       |                    |
 |DRM(I)            |  2018.10.18  |  [Digital Right Management](pdf/dam2018-09.pdf)           |   Chapter 4        |
-
+|DRM(II)           |  2018.10.23  |  [Digital Right Management](pdf/dam2018-10.pdf)           |   Chapter 4        |
 
 ## Homework
 - **Content collection**: [homework-01](pdf/dam2018-hw01.pdf) (deadline, 2018-10-10)
