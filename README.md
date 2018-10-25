@@ -31,15 +31,18 @@ Ms. Yutong Fang
 |Multimedia DB (I) |  2018.10.09  |  [Chanllenges](pdf/dam2018-06.pdf)                        |   Chapter 3        |
 |Multimedia DB (II)|  2018.10.11  |  [Metadata](pdf/dam2018-07.pdf)                           |   Chapter 3        |
 |Multimedia DB (III)|  2018.10.16  |  [MPEG-7 and storage](pdf/dam2018-08.pdf)                |   Chapter 3        |
-|                  |              |  [An HTML5 example](examples/html5)                       |                    |
+|                  |              |  -----                                                    |                    |
 |DRM(I)            |  2018.10.18  |  [Digital Right Management](pdf/dam2018-09.pdf)           |   Chapter 4        |
 |DRM(II)           |  2018.10.23  |  [Digital Right Management](pdf/dam2018-10.pdf)           |   Chapter 4        |
+|                  |              |  -----                                                    |                    |
+|Streaming (I)     |  2018.10.25  |  [Streaming](pdf/dam2018-11.pdf)                          |   Chapter 5        |
+|Streaming (II)    |  2018.10.30  |  [Streaming](pdf/dam2018-12.pdf)                          |   Chapter 5        |
 
 ## Homework
 - **Content collection**: [homework-01](pdf/dam2018-hw01.pdf) (deadline, 2018-10-10)
 - **Assets cataloging**: [homework-02](pdf/dam2018-hw02.pdf) (deadline, 2018-10-16)  [a simple example](https://www.midifan.com) [郭勇飞同学的作业]( ... ) 
 - **Acquire data from internet**: [homework-02a](pdf/dam2018-hw02a.pdf) (deadline, 2018-10-30)
-- **Image watermarking**: [homework-03](pdf/dam2018-hw03.pdf) (deadline, 2018-11-xx)
+- **Image watermarking**: [homework-03](pdf/dam2018-hw03.pdf) (deadline, 2018-11-08)
 - **Image similarity computing**: [homework-04](pdf/dam2018-hw04.pdf) (deadline, 2018-11-xx) Additional reference More and pHash 10 Image samples
 - **Course note (课堂笔记)** : [homework-05](pdf/dam2018-hw05.pdf) (deadline, 2018-11-xx)
 
