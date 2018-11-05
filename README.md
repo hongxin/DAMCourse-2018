@@ -37,6 +37,9 @@ Ms. Yutong Fang
 |                  |              |  -----                                                    |                    |
 |Streaming (I)     |  2018.10.25  |  [Streaming](pdf/dam2018-11.pdf)                          |   Chapter 5        |
 |Streaming (II)    |  2018.10.30  |  [Streaming](pdf/dam2018-12.pdf)                          |   Chapter 5        |
+|                  |              |  -----                                                    |                    |
+|Retrieval (I)     |  2018.11.01  |  [Streaming](pdf/dam2018-13.pdf)                          |   Chapter 6        |
+
 
 ## Homework
 - **Content collection**: [homework-01](pdf/dam2018-hw01.pdf) (deadline, 2018-10-10)
