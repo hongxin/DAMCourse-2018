@@ -35,10 +35,14 @@ Ms. Yutong Fang
 |DRM(I)            |  2018.10.18  |  [Digital Right Management](pdf/dam2018-09.pdf)           |   Chapter 4        |
 |DRM(II)           |  2018.10.23  |  [Digital Right Management](pdf/dam2018-10.pdf)           |   Chapter 4        |
 |                  |              |  -----                                                    |                    |
-|Streaming (I)     |  2018.10.25  |  [Streaming](pdf/dam2018-11.pdf)                          |   Chapter 5        |
-|Streaming (II)    |  2018.10.30  |  [Streaming](pdf/dam2018-12.pdf)                          |   Chapter 5        |
+|Streaming (I)     |  2018.10.25  |  [Streaming protocols](pdf/dam2018-11.pdf)                |   Chapter 5        |
+|Streaming (II)    |  2018.10.30  |  [Streaming and QoS](pdf/dam2018-12.pdf)                  |   Chapter 5        |
 |                  |              |  -----                                                    |                    |
-|Retrieval (I)     |  2018.11.01  |  [Streaming](pdf/dam2018-13.pdf)                          |   Chapter 6        |
+|Retrieval (I)     |  2018.11.01  |  [Image Retrieval](pdf/dam2018-13.pdf)                    |   Chapter 6        |
+|Retrieval (II)    |  2018.11.06  |  [Music Searching](pdf/dam2018-14.pdf)                    |   Chapter 6        |
+|Retrieval (II)    |  2018.11.08  |  [Video Searching](pdf/dam2018-15.pdf)                    |   Chapter 6        |
+|                  |              |  -----                                                    |                    |
+|Project Presenting|  2018.11.13  |  -----                                                    |                    |
 
 
 ## Homework
@@ -46,8 +50,8 @@ Ms. Yutong Fang
 - **Assets cataloging**: [homework-02](pdf/dam2018-hw02.pdf) (deadline, 2018-10-16)  [a simple example](https://www.midifan.com) [郭勇飞同学的作业]( ... ) 
 - **Acquire data from internet**: [homework-02a](pdf/dam2018-hw02a.pdf) (deadline, 2018-10-30)
 - **Image watermarking**: [homework-03](pdf/dam2018-hw03.pdf) (deadline, 2018-11-08)
-- **Image similarity computing**: [homework-04](pdf/dam2018-hw04.pdf) (deadline, 2018-11-xx) Additional reference More and pHash 10 Image samples
-- **Course note (课堂笔记)** : [homework-05](pdf/dam2018-hw05.pdf) (deadline, 2018-11-xx)
+- **Image similarity computing**: [homework-04](pdf/dam2018-hw04.pdf) (deadline, 2018-11-15) Additional reference More and pHash 10 Image samples
+- **Course note (课堂笔记)** : [homework-05](pdf/dam2018-hw05.pdf) (deadline, 2018-11-18)
 
 ## Course Project
 - The course project [PDF](pdf/dam2018-project.pdf) (deadline, 2018-xx-xx)
