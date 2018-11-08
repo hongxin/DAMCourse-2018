@@ -18,31 +18,34 @@ Ms. Yutong Fang
 - 2:05PM - 3:40PM, Tuesday / 3:55PM - 5:30PM, Thursday
 
 ## Schedule
-|   Topic          |     Date     |                  Slides                                   |   Course note      |          
-| ---------------- |:------------:|:---------------------------------------------------------:|:------------------:|
-|  Introduction    |  2018.09.18  |  [Introduction](pdf/dam2018-00.pdf)                       |   Chapter 1        |
-|                  |              |  [What is digital asset management](pdf/dam2018-01.pdf)   |   Skills           |
-|                  |              |  Additional reading                                       |                    |
-|Media Format (I)  |  2018.09.20  |  [Image](pdf/dam2018-02.pdf)                              |   Chapter 2        |
-|Media Format (II) |  2018.09.25  |  [Audio](pdf/dam2018-03.pdf)                              |   Chapter 2        |
-|Media Format (III)|  2018.09.27  |  [Video](pdf/dam2018-04.pdf)                              |   Chapter 2        |
-|Media Format (IV) |  2018.09.29  |  [HTML, XML and 3D](pdf/dam2018-05.pdf)                   |   Chapter 2        |
-|                  |              |  [An HTML5 example](examples/html5)                       |                    |
-|Multimedia DB (I) |  2018.10.09  |  [Chanllenges](pdf/dam2018-06.pdf)                        |   Chapter 3        |
-|Multimedia DB (II)|  2018.10.11  |  [Metadata](pdf/dam2018-07.pdf)                           |   Chapter 3        |
-|Multimedia DB (III)|  2018.10.16  |  [MPEG-7 and storage](pdf/dam2018-08.pdf)                |   Chapter 3        |
-|                  |              |  -----                                                    |                    |
-|DRM(I)            |  2018.10.18  |  [Digital Right Management](pdf/dam2018-09.pdf)           |   Chapter 4        |
-|DRM(II)           |  2018.10.23  |  [Digital Right Management](pdf/dam2018-10.pdf)           |   Chapter 4        |
-|                  |              |  -----                                                    |                    |
-|Streaming (I)     |  2018.10.25  |  [Streaming protocols](pdf/dam2018-11.pdf)                |   Chapter 5        |
-|Streaming (II)    |  2018.10.30  |  [Streaming and QoS](pdf/dam2018-12.pdf)                  |   Chapter 5        |
-|                  |              |  -----                                                    |                    |
-|Retrieval (I)     |  2018.11.01  |  [Image Retrieval](pdf/dam2018-13.pdf)                    |   Chapter 6        |
-|Retrieval (II)    |  2018.11.06  |  [Music Searching](pdf/dam2018-14.pdf)                    |   Chapter 6        |
-|Retrieval (II)    |  2018.11.08  |  [Video Searching](pdf/dam2018-15.pdf)                    |   Chapter 6        |
-|                  |              |  -----                                                    |                    |
-|Project Presenting|  2018.11.13  |  -----                                                    |                    |
+|   Topic           |     Date     |                  Slides                                   |   Course note      |          
+| ----------------  |:------------:|:---------------------------------------------------------:|:------------------:|
+|  Introduction     |  2018.09.18  |  [Introduction](pdf/dam2018-00.pdf)                       |   Chapter 1        |
+|                   |              |  [What is digital asset management](pdf/dam2018-01.pdf)   |   Skills           |
+|                   |              |  Additional reading                                       |                    |
+|Media Format (I)   |  2018.09.20  |  [Image](pdf/dam2018-02.pdf)                              |   Chapter 2        |
+|Media Format (II)  |  2018.09.25  |  [Audio](pdf/dam2018-03.pdf)                              |   Chapter 2        |
+|Media Format (III) |  2018.09.27  |  [Video](pdf/dam2018-04.pdf)                              |   Chapter 2        |
+|Media Format (IV)  |  2018.09.29  |  [HTML, XML and 3D](pdf/dam2018-05.pdf)                   |   Chapter 2        |
+|                   |              |  [An HTML5 example](examples/html5)                       |                    |
+|Multimedia DB (I)  |  2018.10.09  |  [Chanllenges](pdf/dam2018-06.pdf)                        |   Chapter 3        |
+|Multimedia DB (II) |  2018.10.11  |  [Metadata](pdf/dam2018-07.pdf)                           |   Chapter 3        |
+|Multimedia DB (III)|  2018.10.16  |  [MPEG-7 and storage](pdf/dam2018-08.pdf)                 |   Chapter 3        |
+|                   |              |  -----                                                    |                    |
+|DRM(I)             |  2018.10.18  |  [Digital Right Management](pdf/dam2018-09.pdf)           |   Chapter 4        |
+|DRM(II)            |  2018.10.23  |  [Digital Right Management](pdf/dam2018-10.pdf)           |   Chapter 4        |
+|                   |              |  -----                                                    |                    |
+|Streaming (I)      |  2018.10.25  |  [Streaming protocols](pdf/dam2018-11.pdf)                |   Chapter 5        |
+|Streaming (II)     |  2018.10.30  |  [Streaming and QoS](pdf/dam2018-12.pdf)                  |   Chapter 5        |
+|                   |              |  -----                                                    |                    |
+|Retrieval (I)      |  2018.11.01  |  [Image Retrieval](pdf/dam2018-13.pdf)                    |   Chapter 6        |
+|Retrieval (II)     |  2018.11.06  |  [Music Searching](pdf/dam2018-14.pdf)                    |   Chapter 6        |
+|Retrieval (III)    |  2018.11.08  |  [Video Searching](pdf/dam2018-15.pdf)                    |   Chapter 6        |
+|                   |              |  -----                                                    |                    |
+|                   |              |  -----                                                    |                    |
+|                   |              |  -----                                                    |                    |
+|                   |              |  -----                                                    |                    |
+|Project Presenting |  2018.11.13  |  -----                                                    |                    |
 
 
 ## Homework
