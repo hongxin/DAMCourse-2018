@@ -42,8 +42,8 @@ Ms. Yutong Fang
 |Retrieval (II)     |  2018.11.06  |  [Music Searching](pdf/dam2018-14.pdf)                    |   Chapter 6        |
 |Retrieval (III)    |  2018.11.08  |  [Video Searching](pdf/dam2018-15.pdf)                    |   Chapter 6        |
 |                   |              |  -----                                                    |                    |
-|                   |              |  -----                                                    |                    |
-|                   |              |  -----                                                    |                    |
+|Game Development   |  2018.11.08  |  [Game](pdf/dam2018-16.pdf)                               |   Chapter 7        |
+|Digital Library    |  2018.11.08  |  [Digital Library](pdf/dam2018-17.pdf)                    |   Chapter 8        |
 |                   |              |  -----                                                    |                    |
 |Project Presenting |  2018.11.13  |  -----                                                    |                    |
 
